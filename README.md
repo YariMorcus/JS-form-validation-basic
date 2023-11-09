@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JS form validation basic project
 
 ![](screenshot.png)
@@ -13,3 +14,6 @@ This project was purely for educational purposes to prepare myself for the [News
 - Author: [Joy Shaheb
   ](https://www.freecodecamp.org/news/author/joy/)
 - Article: [Learn JavaScript Form Validation – Build a JS Project for Beginners](https://www.freecodecamp.org/news/learn-javascript-form-validation-by-making-a-form/)
+=======
+# JS-form-validation-basic
+>>>>>>> a52fafa254dc570589af1d386f71cd714e15ea32
