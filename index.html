@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+  <script defer src="main.js"></script>
+
+  <title>Form validation project</title>
+</head>
+<body>
+
+  <main class="container">
+
+    <div class="content">
+      <div class="content__logo-container">
+        <img src="images/logo.svg" alt="" class="content__logo">
+      </div> <!-- .content__logo-container -->
+
+      <div class="content__image"></div>
+
+      <p class="content__text">Start for free & get <br> attractive offers today !</p>
+    </div> <!-- .content -->
+
+    <form action="" id="form" class="form">
+
+      <div class="social">
+        <h1 class="form__title">Get Started</h1>
+        <p class="social__question">Already have an account? <br> <button class="social__sign-in">Sign in</button></p>
+
+        <div class="social__btn">
+          <button class="social__btn-1"><img src="images/google.png" alt="">Sign up</button>
+          <button class="social__btn-2"><img src="images/facebook.png" alt="">Sign up</button>
+        </div> <!-- .social__btn -->
+
+        <p class="social__or">Or</p>
+      </div> <!-- .social -->
+
+
+      <!-- Username -->
+      <div class="form__group">
+        <label for="username" class="form__label">Username*</label>
+        <i class="form__icon fas fa-user"></i>
+        <input type="text" id="username" class="form__input" name="username" placeholder="John Doe" >
+        <i class="form__icon fas fa-exclamation-circle failure-icon"></i>
+        <i class="form__icon far fa-check-circle success-icon"></i>
+        <div class="form__error"></div>
+      </div> <!-- .form__group -->
+
+      <!-- Email -->
+      <div class="form__group">
+        <label for="email" class="form__label">Email*</label>
+        <i class="form__icon far fa-envelope"></i>
+        <input type="email" id="email" class="form__input" name="email" placeholder="johndoe@gmail required.com">
+        <i class="form__icon fas fa-exclamation-circle failure-icon"></i>
+        <i class="form__icon far fa-check-circle success-icon"></i>
+        <div class="form__error"></div>
+      </div> <!-- .form__group -->
+
+      <!-- Password -->
+      <div class="form__group">
+        <label for="password" class="form__label">Password*</label>
+        <i class="form__icon fas fa-lock"></i>
+        <input type="password" id="password" class="form__input" name="password" placeholder="Password" >
+        <i class="form__icon fas fa-exclamation-circle failure-icon"></i>
+        <i class="form__icon far fa-check-circle success-icon"></i>
+        <div class="form__error"></div>
+      </div> <!-- .form__group -->
+
+      <!-- Submit -->
+      <button id="btn" class="form__submit" type="submit">Submit</button>
+
+    </form> <!-- .form -->
+  </main> <!-- .container -->
+
+</body>
+</html>
